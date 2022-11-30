@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "git_dsa",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bfs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bfs-Debug-0f28a03e9f42bb06311c.json",
+					"name" : "bfs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djikstras::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djikstras-Debug-44f2e32a9de93dda5c2a.json",
+					"name" : "djikstras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topological_sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topological_sort-Debug-f203a9a843af81187c9c.json",
+					"name" : "topological_sort",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sarth/git_dsa/cmake-build-debug",
+		"source" : "C:/Users/sarth/git_dsa"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

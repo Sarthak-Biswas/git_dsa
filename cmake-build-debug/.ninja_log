@@ -1,0 +1,8 @@
+# ninja log v5
+0	335	6914447931667415	CMakeFiles/git_dsa.dir/main.cpp.obj	7801170e9c792ba7
+1	1162	6914485105689546	CMakeFiles/git_dsa.dir/graphs/dfs/topological_sort.cpp.obj	bd65eb61c3166327
+4	1896	6915238019874379	CMakeFiles/git_dsa.dir/graphs/bfs/bfs.cpp.obj	ebbcfa2a5746ed78
+0	143	6915248353328312	build.ninja	5f82bbbfb5674b05
+1376	1542	6915241659949481	bfs.exe	a34c9cccb8cb8330
+1	1364	6915241658220713	CMakeFiles/bfs.dir/graphs/bfs/bfs.cpp.obj	4bd0ffa7ea86109f
+0	119	6915253378847324	CMakeFiles/djikstras.dir/graphs/bfs/djikstras.cpp.obj	42f9dbb62761c0a3
