@@ -3,20 +3,13 @@ using namespace std;
 
 unordered_map<int, vector<int>> g;
 
-void bfs(int u)
+void djikstra_shortest(int u, int v)
 {
-
+    
 }
-
 
 int main()
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    freopen("error.txt", "w", stderr);
-#endif
-
     int n;
     cin>>n;
 
@@ -29,7 +22,11 @@ int main()
         g[y].push_back(x);
     }
 
-    cout<<g.begin()->first<<endl;
+    int u,v;
+
+    cin>>u>>v;
+
+    djikstra_shortest(u,v);
 
     return 0;
 }
