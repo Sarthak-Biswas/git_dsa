@@ -1,0 +1,1 @@
+Shortest path form 1 to 6 is 1
