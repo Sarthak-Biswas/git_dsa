@@ -36,3 +36,14 @@
         }
     };
     ```
+
+## Concept :
+- Priority queue stores the edges of shortest path.
+- If edge shorter than this exists from the edge to child edge, it is pushed in the queue.
+- Repeat until priority queue is empty or destination edge is reached.
+- It works because no negative edge exists. So this greedy approach works.
+
+## Drawbacks :
+- Does not work for negative weights.
+- Slower than directed topological shortest path.
+- Time complexity = O(V.logE)
