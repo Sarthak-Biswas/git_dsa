@@ -21,7 +21,7 @@
             pair<int,int> const &a,
             pair<int,int> const &b
         ){
-            return a.second>b.second;
+            return a.second<b.second;
         }
     };
     ```
@@ -32,7 +32,7 @@
             pair<int,int> const &a,
             pair<int,int> const &b
         ){
-            return a.second<b.second;
+            return a.second>b.second;
         }
     };
     ```
