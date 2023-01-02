@@ -47,3 +47,14 @@
 - Does not work for negative weights.
 - Slower than directed topological shortest path.
 - Time complexity = O(V.logE)
+
+## Steps :
+- Make the graph.
+- Choose the source and destination node.
+- Make a vector (or any other datastructure) to store the distance and initialize the distances to infinity.
+- Mark the source node distance to 0.
+- Make a priority queue and push the source node with weight.
+- Now until priority queue is empty.
+- Push all edeges to priority queue whose (weight + weight of the current node) is less than it's previous distance.
+- If the destination node is reached or if queue gets empty then break.
+- Return the distance of destination node.
