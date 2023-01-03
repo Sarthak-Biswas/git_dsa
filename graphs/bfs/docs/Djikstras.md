@@ -58,3 +58,7 @@
 - Push all edeges to priority queue whose (weight + weight of the current node) is less than it's previous distance.
 - If the destination node is reached or if queue gets empty then break.
 - Return the distance of destination node.
+
+## Why mark visited nodes ?
+> - First off all we know that once a node gets visited, its shortest distance does not improve anymore.
+> - So mark the visited node after removing it form the priority-queue so that it does not have to be re-evaluated.
