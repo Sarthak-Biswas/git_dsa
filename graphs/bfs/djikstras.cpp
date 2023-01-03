@@ -36,7 +36,7 @@ int djikstra_shortest(int u, int v)
 
         for(auto i : g[edge])
         {
-            if( weight + i.second < dist[i.first])
+            if( weight + i.second < dist[i.first] && weight <= dist[edge] )
             {
                 dist[i.first] = weight + i.second;
                 pq.push(make_pair(i.first, dist[i.first]));
