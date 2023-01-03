@@ -17,6 +17,7 @@ struct myComp{
 int djikstra_shortest(int u, int v) 
 {
     vector<int> dist(1000,INT_MAX);
+    vector<bool> vis(1000, false);
 
     priority_queue<pair<int,int>, vector<pair<int,int>>, myComp> pq;
 
@@ -30,6 +31,7 @@ int djikstra_shortest(int u, int v)
         int weight = pq.top().second;
 
         pq.pop();
+        vis[edge] = true;
 
         if(edge == v)
             break;
@@ -39,6 +41,8 @@ int djikstra_shortest(int u, int v)
 
         for(auto i : g[edge])
         {
+            if(vis[i.first])
+                continue;
             if( weight + i.second < dist[i.first] )
             {
                 dist[i.first] = weight + i.second;
